@@ -1,0 +1,117 @@
+/*
+Theme Name: miyazaki Child
+Template: miyazaki
+Author: Maximilien Ilic
+Description: Thème enfant d’Astra
+Version: 1.0.0
+*/
+
+body{
+ background-color: #FFFFFF;
+
+}
+
+footer{
+    margin-top: 50px;
+    background-color:#0E1B36;
+    color: #FFFFFF;
+}
+
+
+.footer-grid{
+  padding-top:30px ;
+  padding-left: 50px;
+  display:grid;
+  gap:24px;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  margin:24px 0;
+}
+.footer-col h4{   margin:0 0 8px; font-size:3.05rem;color:#99B3C6; }
+.footer-col ul{ list-style:none; font-size:2.05rem; padding:0; margin:0; }
+.footer-col ul li{ margin:6px 0;font-size:2.05rem; }
+.copy{ margin-top:12px; opacity:.8; }
+
+.createur{
+    color :#FFFFFF;
+
+}
+
+.createur:hover{
+    transition: 0.4s;
+    color :#D33D42;
+
+}
+
+a {
+outline: medium none;
+text-decoration: none;
+}
+
+a:hover {
+    transition: 0.4s;   
+    color:#99B3C6;
+}
+
+.image{
+    height: 140px;
+    width: 140px;
+}
+
+
+
+#site-header {
+    background-color: #0E1B36;
+    color: #FFFFFF;
+}
+
+.blanc{
+    color:#D33D42;
+    border-bottom-color: #D33D42;
+}
+
+
+.blanc:hover{
+    transition: 0.4s;
+    color: #D33D42;
+    border-bottom-color: #D33D42;
+}
+
+
+#site-header a[href*="projets"]:hover {
+    transition: 0.4s;
+    color: #D33D42;
+    border-bottom-color: #D33D42;
+}
+
+.site-title a:hover {
+    border-bottom-color: #D33D42;
+}
+
+.header-menu a:hover,
+.search-toggle:hover,
+.search-toggle.active {
+	border-bottom-color: #D33D42;
+    color: #D33D42;
+}
+
+
+.cover-modal {
+    background: #0E1B36;
+	color: #ff0000;
+}
+
+
+.nav-toggle .bar {
+	background: #ffffff;
+}
+
+
+.site-title {
+    color:#D33D42;
+}
+
+
+.text{
+    font-size: 4rem;
+
+}
